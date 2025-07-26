@@ -1,24 +1,23 @@
 // src/pages/Home.js
-import React from 'react';
-import { Box, Typography, Button } from '@mui/material';
-import WindowsIcon from '@mui/icons-material/Window';
-
+import React from "react";
+import { Box, Typography, Button } from "@mui/material";
+import WindowsIcon from "@mui/icons-material/Window";
 
 const Home = () => {
   return (
     <Box
-    
       sx={{
-        height: '100vh',
-        background: 'radial-gradient(circle at center, #000000, #0a0a0a, #000000)',
-        color: '#eee',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        textAlign: 'center',
-        position: 'relative',
-        overflow: 'hidden',
+        height: "100vh",
+        background:
+          "radial-gradient(circle at center, #000000, #0a0a0a, #000000)",
+        color: "#eee",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        textAlign: "center",
+        position: "relative",
+        overflow: "hidden",
         px: 2,
       }}
     >
@@ -27,42 +26,40 @@ const Home = () => {
         variant="h2"
         sx={{
           mb: 2,
-          fontWeight: 'bold',
-          color: '#00bfff',
-          animation: 'slideFadeIn 1.5s  forwards',
+          fontWeight: "bold",
+          color: "#00bfff",
+          animation: "slideFadeIn 1.5s  forwards",
         }}
       >
         True Vision by ZunnaBerry
       </Typography>
 
-      <Typography
-        variant="body1"
-        sx={{ mb: 4, maxWidth: 600, color: '#ccc' }}
-      >
-        Perception as a Service- HD clarity, GPU Shader magic and Transparency Like Never Before.
+      <Typography variant="body1" sx={{ mb: 4, maxWidth: 600, color: "#ccc" }}>
+        Perception as a Service- HD clarity, GPU Shader magic and Transparency
+        Like Never Before.
       </Typography>
 
       <WindowsIcon
         sx={{
           fontSize: 80,
-          color: '#00bfff',
+          color: "#00bfff",
           mb: 3,
-          animation: 'floatUpDown 4s ease-in-out infinite',
+          animation: "floatUpDown 4s ease-in-out infinite",
         }}
       />
 
       <Button
         variant="contained"
-        href="/download/zunnaberry.exe"
+        href="https://github.com/Rahulrax/ZunnaBerry_server/releases/download/v1.0.0/Battery_Managment_System.pdf"
         download
         sx={{
-          backgroundColor: '#00bfff',
-          '&:hover': {
-            backgroundColor: '#0099cc',
-            boxShadow: '0 0 20px #00bfff',
+          backgroundColor: "#00bfff",
+          "&:hover": {
+            backgroundColor: "#0099cc",
+            boxShadow: "0 0 20px #00bfff",
           },
-          fontWeight: 'bold',
-          fontSize: '1rem',
+          fontWeight: "bold",
+          fontSize: "1rem",
           px: 4,
           py: 1.5,
         }}
