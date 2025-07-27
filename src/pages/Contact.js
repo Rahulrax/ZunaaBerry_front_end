@@ -43,13 +43,16 @@ const Contact = () => {
       return;
     }
     try {
-      const response = await fetch("http://localhost:3001/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      const response = await fetch(
+        "https://zunnaberry-server.onrender.com/api/contact",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(form),
         },
-        body: JSON.stringify(form),
-      });
+      );
 
       if (response.ok) {
         setSubmitted(true);
