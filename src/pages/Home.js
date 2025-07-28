@@ -50,7 +50,9 @@ const Home = () => {
 
       <Button
         variant="contained"
-        href="https://github.com/Rahulrax/ZunnaBerry_server/releases/download/v1.0.0/Battery_Managment_System.pdf"
+        href="https://apps.microsoft.com/detail/9p6zknls85sd?hl=en-us&gl=IN&ocid=pdpshare"
+        target="_blank"
+        rel="noopener noreferrer"
         download
         sx={{
           backgroundColor: "#00bfff",
